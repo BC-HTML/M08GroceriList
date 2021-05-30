@@ -2,12 +2,12 @@
 
 function addItem(){
 
-var newItem = document.getElementById('items').Value; //creating new item variavle
+var newItem = document.getElementById('items').value; //creating new item variavle
 
 var newEl = document.createElement('li');
 
 // Create a text node and store it in a variable.
-var newText = document.createTextNode('NewItem');
+var newText = document.createTextNode(newItem);
 
 // Attach the new text node to the new element.
 newEl.appendChild(newText);
